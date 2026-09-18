@@ -1,0 +1,23 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files and logs
+*.log
+tmp/
+temp/
+
+# Local environment files (keep private keys and settings out of Git)
+.env
+.env.local
+
+# Dependency folders, if added later
+node_modules/
+vendor/
