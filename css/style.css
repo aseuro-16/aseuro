@@ -1,5 +1,8 @@
 /* Aseuro — main stylesheet. Colours and spacing are kept here for easy editing. */
 
+/* On wider screens, keep product cards compact and comfortably spaced. */
+@media(min-width:700px){.product-grid{grid-template-columns:repeat(auto-fit,minmax(200px,220px))!important;justify-content:center;gap:34px 22px}}
+
 /* Keep catalogue photos consistently sized, even when original files are tall. */
 .product-image{aspect-ratio:4/5}
 .product-image img{height:100%;object-fit:cover}
